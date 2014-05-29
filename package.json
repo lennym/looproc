@@ -1,5 +1,10 @@
 {
   "name": "looproc",
-  "version": "0.0.1",
-  "bin": "./bin/looproc"
+  "version": "0.0.2",
+  "description": "Run a process repeatedly on a loop, until it fails",
+  "bin": "./bin/looproc",
+  "dependencies": {
+    "argh": "^0.1.1",
+    "concat-stream": "^1.4.5"
+  }
 }
